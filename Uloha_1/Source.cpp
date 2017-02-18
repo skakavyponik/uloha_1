@@ -13,7 +13,7 @@ using namespace cv;
 /// Global variables
 Mat src, erosion_dst, dilation_dst;
 
-int erosion_elem = 0;
+int erosion_elem = 1;
 int erosion_size = 0;
 int dilation_elem = 0;
 int dilation_size = 0;
